@@ -4,3 +4,18 @@
     z-index: 0%;
     box-sizing: border-box;
 }
+.logo{
+    height: 10vh;
+    width: 5vw;
+}
+nav{
+    display: flex;
+    background-color: grey;
+    padding: 0.2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li a{
+    text-decoration: none;
+    margin-top: 2px;
+}
