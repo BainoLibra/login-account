@@ -18,4 +18,16 @@ nav{
 ul li a{
     text-decoration: none;
     margin-top: 2px;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+a{
+    color: white;
+}
+.login-content{
+    border: 5px;
+    background: white;
+    margin: 100px;
 }
