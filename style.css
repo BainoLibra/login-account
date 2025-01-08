@@ -26,8 +26,32 @@ ul li{
 a{
     color: white;
 }
-.login-content{
-    border: 5px;
+.buttons{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+.login{
+    border: 50px;
     background: white;
-    margin: 100px;
+    margin: 30px;
+    /* width: 10vw;
+    height: 50vh; */
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 30px; */
+}
+.email{
+    margin-top: 20px;
+}
+.pass{
+    margin-top: 20px;
+}
+.rem{
+    margin-top: 10px;
+    justify-content: space-between;
 }

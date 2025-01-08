@@ -9,23 +9,38 @@
 <body>
     <nav>
         <img src="image/png.person.png" class="logo">
-        <ul>
-            <li>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
-        <div>
+        <div class="about">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="buttons">
             <button>Sign in</button>
             <button>Sign up</button>
         </div>
     </nav>
-    <div class="login-content">
-        <div class="form">
-            <input type="text" placeholder="first name" name="first name">
-            <input type="text" placeholder="first name" name="lasr name">
+    <div class="login">
+        <div class="content">
+            <div class="form">
+                <input type="text" placeholder="first name" name="first name">
+                <input type="text" placeholder="first name" name="last name">
+            </div>
+            <div class="email">
+                <input type="text" placeholder="E-mail">
+            </div>
+            <div class="pass">
+                <input type="submit" value="password">
+            </div>
+            <div class="rem">
+                <input type="checkbox">
+                <label for="Remember me"> Remember me</label>
+                <label for="terms & conditions"> Term & Conditions</label>
+            </div>
         </div>
     </div>
 </body>
